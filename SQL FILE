@@ -1,0 +1,33 @@
+create schema customer_database;
+
+CREATE TABLE IF NOT EXISTS customer_database.customer(
+id INT NOT NULL auto_increment,
+firstname VARCHAR(255) NOT NULL,
+lastname VARCHAR(255) NOT NULL,
+email varchar (20) NOT NULL,
+PRIMARY KEY (id));
+
+insert into customer_database.customer
+(firstname,lastname,email)
+values
+(Harshit,choudhary,Harshit@gmail.com)
+
+insert into customer_database.customer
+(firstname,lastname,email)
+values
+(Ankit,Garg,Ankit@greatlearning.in)
+
+insert into customer_database.customer
+(firstname,lastname,email)
+values
+(Pranav,s,Pranav@gmail.com)
+  
+insert into customer_database.customer
+(firstname,lastname,email)
+values
+(monika,sharma,monica@greatlearning.in)
+
+insert into customer_database.customer
+(firstname,lastname,email)
+values
+(bhavya,shetty,Bhavya@greatlearning.in)
